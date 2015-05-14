@@ -10,7 +10,6 @@ public class No07_Kaup {
 	No07_Kaup() {
 		this(0,0);
 	}
-
 	No07_Kaup(double i, double j) { //되도록이면 멤버변수와 이름을 맞춘다.
 		this.height = i;
 		this.weight = j;
@@ -27,13 +26,10 @@ public class No07_Kaup {
 		else {msg = "소모증";}
 		return msg;
 	}
-
-	@Override
 	public String toString() {
 		return "카우프지수 [키=" + height + "cm, 몸무게=" + weight + "kg , 카우프지수="
 				+ getMsg() + "]";
 	}
-	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("키를 입력하세요");
@@ -44,8 +40,7 @@ public class No07_Kaup {
 		No07_Kaup Kaup = new No07_Kaup(height, weight);
 		System.out.println(Kaup.toString());
 		System.out.println("완료");
+		scanner.close();
 	}
-	
 	//alt+shift+s 마우스 우버튼
-	
 }

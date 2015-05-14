@@ -28,5 +28,6 @@ public class No03_SwitchCaseDemo {
 		default : break;
 		}
 		System.out.println("귀하는 "+result+"이며, 학점은" +grade+"입니다");
+		scanner.close();
 	}
 }

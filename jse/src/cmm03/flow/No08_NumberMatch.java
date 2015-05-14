@@ -34,5 +34,6 @@ public class No08_NumberMatch {
 				break;
 			}
 		}
+		scanner.close();
 	}
 }

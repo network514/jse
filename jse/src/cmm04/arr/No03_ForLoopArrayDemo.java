@@ -16,5 +16,6 @@ public class No03_ForLoopArrayDemo {
 		int d = scanner.nextInt();
 		int e = scanner.nextInt();
 		array2.testFor(a,b,c,d,e);
+		scanner.close();
 	}
 }

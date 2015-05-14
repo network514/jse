@@ -8,12 +8,12 @@ public class No02_CastingDemo {
 		 = 묵시적(implict) 자동변환 : 자바가 제공하는 자동변환으로 묵시적인 동작
 		 	데이터 타입이 표현범위가 작은쪽에서 많은쪽으로 변환 될때만 가능하다. */
 		
-		byte varByte = 1;
-		int varInt = 123;
-		double varDou = 123.456d;
+		//byte varByte = 1;
+		//int varInt = 123;
+		//double varDou = 123.456d;
 				
-		int upByte = (int)varByte;
-		double upInt = varInt;
+		//int upByte = (int)varByte;
+		//double upInt = varInt;
 		
 		
 		/* Down-Casting 

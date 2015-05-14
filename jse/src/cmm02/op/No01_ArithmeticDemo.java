@@ -9,10 +9,9 @@ public class No01_ArithmeticDemo {
 	 * instanceof 
 	 * */
 	public static void main(String[] args) {
-		int a;
-		int b;
+		//int a;
+		//int b;
 		Float result = (float) 0.0;
-		
-		
+		System.out.println(result);
 	}
 }

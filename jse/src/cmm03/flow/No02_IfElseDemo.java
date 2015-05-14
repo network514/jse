@@ -25,5 +25,6 @@ public class No02_IfElseDemo {
 		int c = scan.nextInt();
 		
 		instance.getBig(a, b, c);
+		scan.close();
 	}
 }
