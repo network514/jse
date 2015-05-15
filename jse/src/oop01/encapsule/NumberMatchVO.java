@@ -1,4 +1,4 @@
-package oop01.game;
+package oop01.encapsule;
 
 public class NumberMatchVO { //getter, setter, ¼ø¼ö¸âº¯
 	private int player, com, count, result;
