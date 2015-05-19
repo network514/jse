@@ -1,0 +1,5 @@
+package oop01.syntax;
+//∏ﬁ¿Œ
+public class AverageD {
+
+}
